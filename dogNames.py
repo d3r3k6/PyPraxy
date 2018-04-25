@@ -12,4 +12,4 @@ for name in dogNames:
 	print(' ' + name)
 	
 dogNames.clear() #Clears the list to add new items next time
-	
+print(len(dogNames))	#Check to see if list clear, just because
