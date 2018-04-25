@@ -9,4 +9,7 @@ while True:
 	dogNames = dogNames + [name] #list concatenation
 print("The dog's names are:")
 for name in dogNames:
-	print(' ' + name)	
+	print(' ' + name)
+	
+dogNames.clear() #Clears the list to add new items next time
+	
