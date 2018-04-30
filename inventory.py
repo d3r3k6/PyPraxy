@@ -7,4 +7,6 @@ def dispalyInv(inventory):
     item_total = 0
     for k, v in inventory.items():
         print(str(v) + ' ' + k)
+        item_total += v
+    print(item_total + ' Items in inventory')
 dispalyInv(stuff)
