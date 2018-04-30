@@ -1,0 +1,10 @@
+#Practice program to model an inventory printout for a video game
+stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
+
+#This function print inventory
+def dispalyInv(inventory):
+    print("Your Current Inventory")
+    item_total = 0
+    for k, v in inventory.items():
+        print(str(v) + ' ' + k)
+dispalyInv(stuff)
