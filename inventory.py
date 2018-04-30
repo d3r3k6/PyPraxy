@@ -10,3 +10,11 @@ def dispalyInv(inventory):
         item_total += v
     print(item_total + ' Items in inventory')
 dispalyInv(stuff)
+
+#Congats! You slayed a dragon. Below is his Inventory
+
+dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+
+#Function to add dragons inventory to yoru Inventory
+
+def addToInv()
